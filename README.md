@@ -28,10 +28,10 @@ The Locked Diary is a console-based personal diary application developed in C++ 
 * Quickly record current emotional states through a dedicated menu.
 * Supports 10 predefined emotions with emoji indicators, such as:
 
-  * Happy 😊
-  * Excited 😆
-  * Tired 😓
-  * Confident 😎
+  * Happy 
+  * Excited 
+  * Tired 
+  * Confident 
   * And more.
 
 #### Record Meetings
@@ -170,7 +170,7 @@ It serves as a practical exercise for applying OOP concepts in a real-world mini
 - **Password Protection System:** ระบบล็อกไดอารี่ด้วยรหัสผ่านความปลอดภัยสูง ตรวจสอบสิทธิ์ (Authentication) ทุกครั้งก่อนเข้าถึงเมนูจัดการข้อมูล
 - **Diary Management:** รองรับการบันทึกข้อมูลไดอารี่ทั่วไป (เพิ่มหัวข้อ, วันที่ และเนื้อหา), แสดงรายการไดอารี่ทั้งหมด และเลือกนำไดอารี่ที่ต้องการออกได้ (Delete Entry)
 - **Specialized Loggers:** ฟังก์ชันบันทึกข้อมูลหมวดหมู่เฉพาะตัว:
-  - **Record Emotions:** เลือกบันทึกสถานะอารมณ์ปัจจุบันจาก Quick Menu (มีตัวเลือกอารมณ์พร้อม Emoji ถึง 10 รูปแบบ เช่น Happy 😊, Tired 😓, Confident 😎)
+  - **Record Emotions:** เลือกบันทึกสถานะอารมณ์ปัจจุบันจาก Quick Menu (มีตัวเลือกอารมณ์พร้อม Emoji ถึง 10 รูปแบบ เช่น Happy , Tired , Confident )
   - **Record Meeting:** เมนูแยกสำหรับจดบันทึกรายละเอียดการประชุมหรือการนัดหมายสำคัญ
 - **Dynamic Settings:** มีฟังก์ชันสำหรับเปลี่ยนรหัสผ่านเพื่อความปลอดภัย (Change Password) ได้โดยตรงจากภายในโปรแกรม
 
