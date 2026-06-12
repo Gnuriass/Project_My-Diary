@@ -132,6 +132,7 @@ public:
         while (!validChoice)
         {
             cout << "\nSelect your current emotion:\n";
+
             cout << "1. Happy \n";
             cout << "2. Scared \n";
             cout << "3. Tired \n";
@@ -148,6 +149,7 @@ public:
             switch (choice)
             {
             case 1:
+
                 emotion = "Happy ";
                 validChoice = true;
                 break;
@@ -306,27 +308,29 @@ public:
 
 private:
     bool authenticate()
+{
+    string attempt;
+    cout << "Enter password: ";
+    cin >> attempt;
+
+    if (attempt == password)
     {
-        string attempt;
-        cout << "Enter password: ";
-        cin >> attempt;
-
-        if (attempt == password)
-        {
-            return true;
-        }
-
+        return true;
+    }
+    else
+    {
         cout << "Incorrect password.\n";
         return false;
     }
+}
 };
 
 int main()
 {
-    LockedDiary diary("1234");
-
-    diary.runMenu();
+    LockedDiary myDiary("1234");
+    myDiary.runMenu();
 
     return 0;
 }
+
 

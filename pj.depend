@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1709951329 source:c:\users\a1\desktop\codeblocks\c++\pj\main.cpp
+	<iostream>
+	<vector>
+	<string>
+
