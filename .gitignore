@@ -40,3 +40,25 @@ Desktop.ini
 # =========================
 *.tmp
 *.log
+# Build files
+bin/
+obj/
+
+# Executable files
+*.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# Visual Studio Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.log
